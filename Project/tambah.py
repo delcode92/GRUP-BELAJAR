@@ -1,5 +1,5 @@
-def perkalian(a,b):
-    c = a * b
+def pertambahan(a,b):
+    c = a + b
     return c
 
 perkalian(4,8)
