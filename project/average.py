@@ -1,4 +1,3 @@
-
 def rata_rata(deret):
     y = 0
     for x in data:
