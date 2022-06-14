@@ -5,7 +5,7 @@ def rata_rata(deret):
     return y / len(deret)
 
     # return sum(deret) / len(deret)
-data = [10, 12, 18, 19, 21, 23]
+data = [10, 12, 18, 19, 21, 24]
 
 
 print(f" Data -> {data}")
