@@ -5,3 +5,6 @@ y = 10
 z = x*y
 print(z)
 
+# tlg tambahin kodenya
+
+X=100
