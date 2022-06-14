@@ -7,4 +7,4 @@ print(z)
 
 # tlg tambahin kodenya
 
-X=100
+X=50
