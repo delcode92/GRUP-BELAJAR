@@ -1,1 +1,8 @@
 Ini tugas penting
+
+#edit dari branch adamtri
+
+x = 0
+y = 2
+
+print(x,y)
