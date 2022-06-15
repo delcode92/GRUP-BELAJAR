@@ -73,3 +73,34 @@ x_val = 4 <br>
 new_val = [d for d in val if d != x_val] <br>
 
 --> val = [1,2,3,5]
+
+_________________________________________________________________________________________________
+
+#### Error Handling -- with AttributeError
+
+---------- without AttributeError ---------------
+
+-->if code inside "try" run sys.exit() , it will not run sys.exit()
+   but it will execute "except" code
+
+try: 
+    ---- some code with sys.exit()  ---
+except:
+    sys.exit("....some error message here ....")
+
+-----------------------------------------------------
+
+
+so we must use AttributeError in "except"
+
+
+---------- with AttributeError ---------------
+try: 
+    ---- some code with sys.exit()  ---
+except AttributeError:
+    sys.exit("....some error message here ....")
+    
+-----------------------------------------------
+
+
+
