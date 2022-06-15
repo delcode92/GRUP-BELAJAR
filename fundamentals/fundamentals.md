@@ -80,25 +80,25 @@ ________________________________________________________________________________
 
 ---------- without AttributeError ---------------
 
--->if code inside "try" run sys.exit() , it will not run sys.exit()
-   but it will execute "except" code
+-->if code inside "try" run sys.exit() , it will not run sys.exit() <br>
+   but it will execute "except" code <br>
 
-try: 
-    ---- some code with sys.exit()  ---
-except:
-    sys.exit("....some error message here ....")
+try: <br>
+    ---- some code with sys.exit()  --- <br>
+except: <br>
+    sys.exit("....some error message here ....") <br>
 
 -----------------------------------------------------
 
 
-so we must use AttributeError in "except"
+so we must use AttributeError in "except" <br>
 
 
----------- with AttributeError ---------------
-try: 
-    ---- some code with sys.exit()  ---
-except AttributeError:
-    sys.exit("....some error message here ....")
+---------- with AttributeError --------------- <br>
+try: <br>
+    ---- some code with sys.exit()  --- <br>
+except AttributeError: <br>
+    sys.exit("....some error message here ....") <br>
     
 -----------------------------------------------
 
