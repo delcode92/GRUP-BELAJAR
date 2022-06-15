@@ -200,7 +200,7 @@ ________________________________________________________________________________
 
 
 
-### 12) buat program translate kata sederhana kedalam bahasa inggris menggunakan python, tapi user bisa pilih dia mau translate ke indonesia - inggris atau inggris -indonesia
+### 12) buat program translate kata sederhana menggunakan python, tapi user bisa pilih dia mau translate ke indonesia - inggris atau inggris -indonesia
 
 #### case 1:
 pilih bahasa:
