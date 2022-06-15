@@ -179,3 +179,49 @@ input--> [K, Fr, Re, B, Pb]
 
 #### output: 
 B tidak boleh digabung dengan Pb
+
+________________________________________________________________________________________________________________________________
+
+
+### 11) buat program translate kata sederhana kedalam bahasa inggris menggunakan python
+
+#### case 1:
+input  --> hello
+
+output --> hello
+
+
+#### case 2:
+input  --> cuaca
+
+output --> weather
+
+________________________________________________________________________________________________________________________________
+
+
+
+### 12) buat program translate kata sederhana kedalam bahasa inggris menggunakan python, tapi user bisa pilih dia mau translate ke indonesia - inggris atau inggris -indonesia
+
+#### case 1:
+pilih bahasa:
+1. indonesia = inggris
+2. inggris - indonesia
+
+-->1
+
+input  --> hello
+output --> hello
+
+
+#### case 2:
+
+pilih bahasa:
+1. indonesia = inggris
+2. inggris - indonesia
+
+-->2
+
+
+input  --> weather
+output --> cuaca
+
