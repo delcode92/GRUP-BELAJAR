@@ -15,7 +15,7 @@ untuk output level 2 menggunakan kata "dan" jika jumlah bilangan lebih daripada 
 _________________________________________________________________________________________________________________________________
 
 
-### 2) buat program yang bisa mencari jumlah bilangan ganjil, dalam sebuah list & tampilkan angka-angka nya <span id="test"></span>
+### 2) buat program yang bisa mencari jumlah bilangan ganjil, dalam sebuah list & tampilkan angka-angka nya
 
 case 1:
 input list --> [1, 3, 6, 8, 11]
@@ -200,7 +200,7 @@ ________________________________________________________________________________
 
 
 
-### 12) buat program translate kata sederhana menggunakan python, tapi user bisa pilih dia mau translate ke indonesia - inggris atau inggris -indonesia
+### 12) buat program translate kata sederhana menggunakan python, tapi user bisa pilih dia mau translate ke indonesia - inggris atau inggris -indonesia <span id="test"/>
 
 #### case 1:
 pilih bahasa:
