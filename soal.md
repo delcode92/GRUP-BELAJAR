@@ -15,7 +15,7 @@ untuk output level 2 menggunakan kata "dan" jika jumlah bilangan lebih daripada 
 _________________________________________________________________________________________________________________________________
 
 
-### 2) buat program yang bisa mencari jumlah bilangan ganjil, dalam sebuah list & tampilkan angka-angka nya
+### 2) buat program yang bisa mencari jumlah bilangan ganjil, dalam sebuah list & tampilkan angka-angka nya <span id="test"></span>
 
 case 1:
 input list --> [1, 3, 6, 8, 11]
