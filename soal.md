@@ -237,20 +237,20 @@ ________________________________________________________________________________
 
 #### case 1 ( year/month/date to date/month/year):
 
-input --> 1990/02/25
+input --> 1990/02/25 <br/>
 output --> 25/02/1990
 
 
 #### case 2 ( year/month/date to date-month-year):
 
-input --> 1990/02/25
+input --> 1990/02/25 <br/>
 output --> 25-02-1990
 
 --------------------------------------------------
 
 #### 2. ganti angka 0 pada awalan nomor HP menjadi +62 :
 
-input --> 085260346325
+input --> 085260346325 <br/>
 output --> +6285260346325
 
 --------------------------------------------------
@@ -258,12 +258,12 @@ output --> +6285260346325
 #### 3. print angka yg terdapat setelah prefix berikut :
 
 #### case 1 (prefix: - ) :
-input --> PT-10
+input --> PT-10 <br/>
 output --> 10
 
 
 #### case 1 (prefix: # ) :
-input --> KD#205
+input --> KD#205 <br/>
 output --> 205
 
 ----------------------------------------------------
@@ -285,5 +285,5 @@ output --> ular melingkar dipagar pak umar
 #### case 1:
 #### data ---> {"siswa-1":{"nama":"Budi", "alamat":"pango", "hp":"12345", "jk":"laki-laki"}}
 
-input --> alamat
+input --> alamat <br/>
 output --> pango
