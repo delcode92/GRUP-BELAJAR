@@ -200,7 +200,7 @@ ________________________________________________________________________________
 
 
 
-### 12) buat program translate kata sederhana menggunakan python, tapi user bisa pilih dia mau translate ke indonesia - inggris atau inggris -indonesia <span id="test"/>
+### 12) buat program translate kata sederhana menggunakan python, tapi user bisa pilih dia mau translate ke indonesia - inggris atau inggris -indonesia
 
 #### case 1:
 pilih bahasa:
@@ -225,3 +225,65 @@ pilih bahasa:
 input  --> weather
 output --> cuaca
 
+
+
+________________________________________________________________________________________________________________________________
+
+
+
+### 13) buat program manipulasi string berdasarkan input dan output yg diperintahkan <span id="manipulasi_string"/>
+
+#### 1. ubah format tanggal :
+
+#### case 1 ( year/month/date to date/month/year):
+
+input --> 1990/02/25
+output --> 25/02/1990
+
+
+#### case 2 ( year/month/date to date-month-year):
+
+input --> 1990/02/25
+output --> 25-02-1990
+
+--------------------------------------------------
+
+#### 2. ganti angka 0 pada awalan nomor HP menjadi +62 :
+
+input --> 085260346325
+output --> +6285260346325
+
+--------------------------------------------------
+
+#### 3. print angka yg terdapat setelah prefix berikut :
+
+#### case 1 (prefix: - ) :
+input --> PT-10
+output --> 10
+
+
+#### case 1 (prefix: # ) :
+input --> KD#205
+output --> 205
+
+----------------------------------------------------
+
+#### 4. buang semua spasi kecuali pemisah antar kata:
+
+#### case 1:
+input -->                  ular melingkar dipagar pak umar                  
+output --> ular melingkar dipagar pak umar
+
+#### case 2:
+input -->                  ular               melingkar dipagar          pak                umar                  
+output --> ular melingkar dipagar pak umar
+
+----------------------------------------------------
+
+#### 5. keluarkan data yang diminta, dari JSON atau dictionary berikut:
+
+#### case 1:
+#### data ---> {"siswa-1":{"nama":"Budi", "alamat":"pango", "hp":"12345", "jk":"laki-laki"}}
+
+input --> alamat
+output --> pango
