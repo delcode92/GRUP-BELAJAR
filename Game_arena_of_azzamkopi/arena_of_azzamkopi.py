@@ -3,7 +3,7 @@ import time
 
 
 hero1 = {
-  "namaplayer": "Buggy
+  "namaplayer": "Buggy"
   "role": "carry",
   "darah": 1000,
   "attackDamage": 25,
