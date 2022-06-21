@@ -1,38 +1,52 @@
 from tkinter import Canvas, Tk, PhotoImage, NW
 import time
 
-WIDTH = 600
-HEIGHT = 600
+WIDTH = 1600
+HEIGHT = 1200
 window = Tk()
 
 canvas = Canvas(window,width=WIDTH,height=HEIGHT)
 canvas.pack()
+path = "game/freedinosprite/png/"
+bg_path = "game/craftpix-516661-free-cartoon-forest-game-backgrounds/PNG/Cartoon_Forest_BG_03/"
 
-i = 1
+background_photo = PhotoImage(file=f'{bg_path}Cartoon_Forest_BG_03.png')
+
+b = 0
+def animate(style:str, img_count:int, reverse:bool=False):
+    
+    for i in range(img_count):
+        
+        if reverse:
+            i = img_count-i
+        elif reverse == False:     
+            i+=1
+
+        # global b
+        # b-=2
+        canvas.create_image(0,-70,image=background_photo,anchor=NW)
+
+        photo_image = PhotoImage(file=f'{path}{style} ({i}).png')
+        canvas.create_image(100,580,image=photo_image,anchor=NW)
+
+        window.update()
+        time.sleep(0.03)
+
 while True:
     
-    if i==1:
-        for j in range(10):
-            j+=1
-            
-            photo_image = PhotoImage(file=f'game/freedinosprite/png/Walk ({j}).png')
-            my_image = canvas.create_image(0,0,image=photo_image,anchor=NW)
-            
-            window.update()
-            time.sleep(0.03)
+
+    animate("Idle", 10)    
+    animate("Walk", 10)    
+    animate("Run", 8)    
+    animate("Jump", 12)    
+
+    animate("Run", 8)
+    animate("Walk", 10)
+    animate("Idle", 10)
+    animate("Dead", 8)
+    animate("Dead", 8, True)
+
+    time.sleep(1)
+
     
-
-    photo_image = PhotoImage(file=f'game/freedinosprite/png/Run ({i}).png')
-    my_image = canvas.create_image(0,0,image=photo_image,anchor=NW)
-
-
-    
-    i+=1
-
-    if i== 9:
-        i=1
-
-    window.update()
-    time.sleep(0.03)
-
 window.mainloop()
