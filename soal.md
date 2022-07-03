@@ -271,11 +271,11 @@ output --> 205
 #### 4. buang semua spasi kecuali pemisah antar kata:
 
 #### case 1:
-input -->                  ular melingkar dipagar pak umar                  
+input -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ular melingkar dipagar pak umar                  
 output --> ular melingkar dipagar pak umar
 
 #### case 2:
-input -->                  ular               melingkar dipagar          pak                umar                  
+input -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ular&nbsp;&nbsp;&nbsp;&nbsp;melingkar dipagar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pak&nbsp;&nbsp;&nbsp;&nbsp;umar                  
 output --> ular melingkar dipagar pak umar
 
 ----------------------------------------------------
