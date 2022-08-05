@@ -1,0 +1,7 @@
+site:
+https://regexr.com/
+
+([A-Za-z.0-9])\w+/gim
+
+test:
+AA.1 * AA.2 * AA.3 * 60 * AA.11 / AA.4 *(AA.12/AA.11)+AA+A
