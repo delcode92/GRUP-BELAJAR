@@ -3,5 +3,13 @@ https://regexr.com/
 
 ([A-Za-z.0-9])\w+/gim
 
+([A-Z.0-9])\w*
+
+([A.])\w*
+
+
 test:
+
+([a-zA-Z.0-9]+) // terakhir
+
 AA.1 * AA.2 * AA.3 * 60 * AA.11 / AA.4 *(AA.12/AA.11)+AA+A
