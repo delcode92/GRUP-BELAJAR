@@ -9,7 +9,9 @@ https://regexr.com/
 
 
 test:
+https://www.youtube.com/watch?v=rhzKDrUiJVk&ab_channel=WebDevSimplified
 
-([a-zA-Z.0-9]+) // terakhir
+[a-zA-Z.\d\*\+]+ // terakhir
+[a-zA-Z.\d\*\+]+
 
 AA.1 * AA.2 * AA.3 * 60 * AA.11 / AA.4 *(AA.12/AA.11)+AA+A
